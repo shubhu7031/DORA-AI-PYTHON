@@ -18,7 +18,7 @@ import pyautogui
 import wolframalpha
 from pywikihow import search_wikihow
 try:
-    app=wolframalpha.Client("79Q5YY-G9W8986KYE")
+    app=wolframalpha.Client("<your API ID>")
 except Exception as e:
     print("something want wrong")
 
